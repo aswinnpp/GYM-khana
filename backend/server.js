@@ -31,7 +31,7 @@ app.post("/homeSetup" , homeSetup)
 
 
 
-mongoose.connect('mongodb://localhost:27017/gym-app', {
+mongoose.connect('mongodb+srv://aswincp:Aswin%40123@cluster0.abcd.mongodb.net/mydb?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
